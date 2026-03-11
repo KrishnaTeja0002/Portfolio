@@ -1,0 +1,146 @@
+.experience-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  width: 2px;
+  height: 100%;
+  background: var(--glass-border);
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--space-xl);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  z-index: 2;
+}
+
+.timeline-dot {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  border: 2px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-base);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
+  transition: border-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.timeline-item:hover .timeline-dot {
+  border-color: var(--accent-base);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(90, 41, 228, 0.4);
+}
+
+.timeline-content {
+  padding: 2rem;
+  flex-grow: 1;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.timeline-item:hover .timeline-content {
+  border-color: rgba(90, 41, 228, 0.4);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.role-title {
+  font-family: var(--font-family-display);
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.company-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.company-name {
+  font-weight: 500;
+  color: #fff;
+}
+
+.dot-separator {
+  color: var(--glass-border);
+}
+
+.period-badge {
+  font-family: var(--font-family-display);
+  font-size: 0.85rem;
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: rgba(90, 41, 228, 0.1);
+  color: #ae85ff;
+  border: 1px solid rgba(90, 41, 228, 0.3);
+}
+
+.timeline-points {
+  margin-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.timeline-points li {
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.timeline-points li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 20px;
+  }
+  
+  .timeline-dot {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .timeline-dot svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .timeline-header {
+    flex-direction: column;
+  }
+  
+  .period-badge {
+    margin-top: 0.5rem;
+  }
+}

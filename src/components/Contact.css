@@ -1,0 +1,112 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  position: relative;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xl);
+  max-width: 800px;
+  width: 100%;
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  background: rgba(41, 228, 182, 0.1);
+  color: #29e4b6;
+  font-family: var(--font-family-display);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid rgba(41, 228, 182, 0.2);
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #29e4b6;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(41, 228, 182, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(41, 228, 182, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(41, 228, 182, 0); }
+}
+
+.contact-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.2;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-link, .contact-location {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.125rem;
+}
+
+.contact-link {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.contact-location {
+  color: var(--text-secondary);
+}
+
+.contact-icon {
+  color: var(--accent-base);
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: var(--space-lg) 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--glass-border);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-lg);
+}
+
+.footer-links a {
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .contact-info { gap: var(--space-md); flex-direction: column; }
+  .footer { flex-direction: column; gap: var(--space-md); text-align: center; }
+}
