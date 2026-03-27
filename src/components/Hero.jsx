@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { ArrowDown, Github, Linkedin } from 'lucide-react';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profile-new.png';
 import './Hero.css';
 
 const Hero = () => {
+  const heroRef = useRef(null);
+  
+  // Parallax effect
+  useEffect(() => {
+    // Initial reveal animation is already handled by intersection observers
+  }, []);
+
   return (
     <section className="section hero-section" id="hero">
-      <div className="hero-grid">
+      <div className="hero-grid" ref={heroRef}>
         <div className="hero-text-content">
           <div className="reveal-up is-visible">
-            <p className="hero-subtitle">Hi, I&apos;m a Software Engineer</p>
+            <p className="hero-subtitle">Hi, I'm a Full Stack Developer</p>
           </div>
           
           <div className="reveal-up reveal-delay-1 is-visible">
@@ -22,8 +29,8 @@ const Hero = () => {
           
           <div className="reveal-up reveal-delay-2 is-visible hero-desc-container">
             <p className="hero-description text-secondary">
-              I build full-stack applications with React, Python, Django, and FastAPI.
-              My work centers on clean architecture, reliable APIs, scalable data flows, and practical AI features that solve real product problems.
+              I build high-performance web applications using React, Python, and AI tools. 
+              Focused on creating practical, AI-enhanced solutions with Django and Large Language Models.
             </p>
           </div>
 
