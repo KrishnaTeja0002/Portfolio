@@ -1,6 +1,6 @@
 import React from 'react';
 import './Education.css';
-import { GraduationCap, Award, BookOpen } from 'lucide-react';
+import { GraduationCap, Award, BookOpen, ExternalLink } from 'lucide-react';
 
 const Education = () => {
   return (
@@ -49,6 +49,15 @@ const Education = () => {
               <li>Reviewed predictive models including ANN, genetic algorithms, and automated model optimization (AutoML)</li>
               <li>Explored how ML identifies complex patterns in medical datasets to improve early diagnosis and clinical decision support</li>
             </ul>
+            <a 
+              href="https://www.ijraset.com/research-paper/a-review-on-heart-disease-prediction-system" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="paper-link hover-trigger"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginTop: '1.5rem', color: '#ae85ff', fontSize: '0.9rem', fontWeight: '500' }}
+            >
+              View Published Paper <ExternalLink size={14} />
+            </a>
           </div>
         </div>
       </div>
