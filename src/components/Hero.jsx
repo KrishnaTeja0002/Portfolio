@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { ArrowDown, Github, Linkedin } from 'lucide-react';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profile-new.png';
 import './Hero.css';
 
 const Hero = () => {
@@ -8,16 +8,7 @@ const Hero = () => {
   
   // Parallax effect
   useEffect(() => {
-    const handleScroll = () => {
-      if (!heroRef.current) return;
-      const scrollY = window.scrollY;
-      // Slight parallax on scroll out
-      heroRef.current.style.transform = `translateY(${scrollY * 0.3}px)`;
-      heroRef.current.style.opacity = 1 - scrollY * 0.002;
-    };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Initial reveal animation is already handled by intersection observers
   }, []);
 
   return (
@@ -25,7 +16,7 @@ const Hero = () => {
       <div className="hero-grid" ref={heroRef}>
         <div className="hero-text-content">
           <div className="reveal-up is-visible">
-            <p className="hero-subtitle">Hi, I'm a Software Engineer</p>
+            <p className="hero-subtitle">Hi, I'm a Full Stack Developer</p>
           </div>
           
           <div className="reveal-up reveal-delay-1 is-visible">
@@ -38,8 +29,8 @@ const Hero = () => {
           
           <div className="reveal-up reveal-delay-2 is-visible hero-desc-container">
             <p className="hero-description text-secondary">
-              Specializing in Python backend development, REST APIs & AI-assisted automation. 
-              Building scalable systems with Django, React, and LLM integrations.
+              I build high-performance web applications using React, Python, and AI tools. 
+              Focused on creating practical, AI-enhanced solutions with Django and Large Language Models.
             </p>
           </div>
 
