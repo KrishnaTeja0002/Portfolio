@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Skills.css';
 
 const Skills = () => {
@@ -11,36 +11,36 @@ const Skills = () => {
 
       <div className="skills-grid reveal-up reveal-delay-1">
         <div className="skill-category glass-panel">
-          <h3 className="category-title">Backend & Web</h3>
+          <h3 className="category-title">Application Engineering</h3>
           <div className="skills-list">
-            {['Python', 'Django', 'Flask', 'REST APIs', 'React.js', 'JWT'].map((skill) => (
+            {['React.js', 'JavaScript', 'Python', 'Django', 'FastAPI', 'REST APIs'].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>
         </div>
 
         <div className="skill-category glass-panel">
-          <h3 className="category-title">Databases</h3>
+          <h3 className="category-title">Data & Backend Systems</h3>
           <div className="skills-list">
-            {['PostgreSQL', 'MySQL', 'SQLite', 'Django ORM'].map((skill) => (
+            {['PostgreSQL', 'MySQL', 'SQLite', 'Django ORM', 'JWT Auth', 'Role-Based Access'].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>
         </div>
 
         <div className="skill-category glass-panel">
-          <h3 className="category-title">AI & Automation</h3>
+          <h3 className="category-title">AI-Enabled Product Work</h3>
           <div className="skills-list">
-            {['LLM Integration', 'Prompt Engineering', 'Agentic AI', 'AutoML', 'Scikit-learn'].map((skill) => (
+            {['LLM Integration', 'Prompt Engineering', 'RAG Workflows', 'Agentic AI', 'Scikit-learn'].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>
         </div>
 
         <div className="skill-category glass-panel">
-          <h3 className="category-title">DevOps & Tools</h3>
+          <h3 className="category-title">Delivery & Infrastructure</h3>
           <div className="skills-list">
-            {['Git', 'Nginx', 'Gunicorn', 'GCP', 'AWS', 'Linux'].map((skill) => (
+            {['Git', 'Docker', 'Nginx', 'Gunicorn', 'AWS', 'Linux'].map((skill) => (
               <span key={skill} className="skill-tag">{skill}</span>
             ))}
           </div>

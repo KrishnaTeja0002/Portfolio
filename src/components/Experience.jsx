@@ -4,32 +4,21 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: "Contract Software Developer",
+    role: "Software Engineer",
     company: "Independent Contractor",
     location: "Hyderabad, India",
     type: "Contract",
     period: "Sep 2024 – Present",
     points: [
-      "Developed responsive full-stack web applications using modern frameworks and technologies.",
-      "Built efficient backend services in Python using Django, Flask, and FastAPI.",
-      "Ensured all applications met specific project requirements and delivered consistent functionality.",
-      "Followed the software development life cycle to plan, build, and deliver quality code.",
-      "Collaborated with clients to implement new features and functional improvements.",
-      "Maintained and optimized database systems using PostgreSQL and MySQL.",
-      "Managed the deployment of applications on cloud platforms like AWS and Google Cloud.",
-      "Used Docker containers to create stable and reproducible development environments.",
-      "Developed secure RESTful APIs for seamless communication between frontend and backend.",
-      "Implemented secure user authentication systems using JWT and OAuth2 protocols.",
-      "Configured user roles and permissions to protect sensitive application data.",
-      "Integrated Large Language Models (LLMs) to automate and enhance business workflows.",
-      "Applied prompt engineering techniques to improve AI-generated responses.",
-      "Used AI patterns such as RAG (Retrieval-Augmented Generation) to improve search and data retrieval logic.",
-      "Identified and fixed software bugs through systematic debugging and profiling.",
-      "Optimized SQL queries via the Django ORM to improve database performance.",
-      "Implemented caching strategies to improve web page load speeds for users.",
-      "Presented technical details and project status clearly during team meetings.",
-      "Created detailed documentation to ensure codebase maintainability and clarity.",
-      "Maintained a focus on writing clean, modular, and readable code for all projects."
+      "Engineered full-stack web applications with React and Python, aligning architecture and delivery with client requirements.",
+      "Built backend services with Django, Flask, and FastAPI to support dashboards, business workflows, and API-driven products.",
+      "Designed and integrated secure REST APIs, authentication flows, and role-based access controls for production use cases.",
+      "Modeled and optimized PostgreSQL and MySQL data layers, improving query performance and application reliability.",
+      "Containerized services with Docker and supported cloud deployments on AWS and GCP for consistent release workflows.",
+      "Integrated LLM-powered features and retrieval workflows to automate tasks and improve user-facing search experiences.",
+      "Debugged application issues, profiled bottlenecks, and improved runtime performance across frontend and backend systems.",
+      "Collaborated directly with stakeholders, translated product requirements into implementation plans, and documented delivery decisions.",
+      "Maintained clean, modular codebases with an emphasis on readability, maintainability, and long-term extensibility."
     ]
   }
 ];

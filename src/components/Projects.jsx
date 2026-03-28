@@ -11,45 +11,45 @@ const projects = [
   {
     id: 1,
     title: "Heart Disease Prediction System",
-    category: "Machine Learning / AutoML",
+    category: "ML-Driven Web Application",
     year: "Jan 2024",
     image: proj1,
     color: "#5a29e4",
-    desc: "ML model using Python, TPOT and ANN with full preprocessing pipeline. Deployed via Flask.",
+    desc: "Built a prediction workflow in Python with automated preprocessing, model experimentation, and a Flask-based interface for end users.",
     tags: ["Python", "AutoML", "Flask", "ANN"],
     link: "https://github.com/KrishnaTeja0002/heart-disease-prediction-system"
   },
   {
     id: 2,
     title: "Real-time Object Detection",
-    category: "Computer Vision / AI",
+    category: "Computer Vision System",
     year: "2024",
     image: proj2,
     color: "#00d2ff",
-    desc: "Integrated object detection and tracking in real-time streams using advanced neural net architectures.",
+    desc: "Developed a real-time detection and tracking pipeline for video streams, combining computer vision models with performance-focused processing logic.",
     tags: ["Python", "Computer Vision", "Deep Learning"],
     link: "https://github.com/KrishnaTeja0002/integrated-object-detection-and-tracking"
   },
   {
     id: 3,
     title: "Sales Overview Dashboard",
-    category: "Data Analytics / Power BI",
+    category: "Analytics Application",
     year: "May 2024",
     image: proj3,
     color: "#29e4b6",
-    desc: "Interactive sales analytics dashboard backed by Python for data cleaning and MySQL for structured storage.",
+    desc: "Created an analytics workflow using Python for data preparation, MySQL for structured storage, and Power BI for reporting and decision support.",
     tags: ["Python", "Pandas", "MySQL", "Power BI"],
     link: "https://github.com/KrishnaTeja0002/Sales-Overview-Dashboard"
   },
   {
     id: 4,
-    title: "Personal Developer Portfolio",
-    category: "Web Application / Design",
+    title: "Personal Portfolio",
+    category: "Frontend Engineering",
     year: "2024",
     image: proj4,
     color: "#ae85ff",
-    desc: "High-end, production-level personal developer portfolio website that looks handcrafted, premium, and human-developed.",
-    tags: ["React.js", "Advanced CSS3", "UI/UX Design"],
+    desc: "Designed and built a responsive React portfolio with custom motion, polished visual systems, and a front-end architecture tailored for personal branding.",
+    tags: ["React.js", "CSS3", "UI Engineering"],
     link: "https://github.com/KrishnaTeja0002/Portfolio"
   }
 ];

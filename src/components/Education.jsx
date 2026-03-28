@@ -7,7 +7,7 @@ const Education = () => {
     <section className="section education-section" id="education">
       <div className="section-header reveal-up">
         <p className="section-subtitle">(04) / Academic Background</p>
-        <h2 className="section-title">Education & Research</h2>
+        <h2 className="section-title">Education & Credentials</h2>
       </div>
 
       <div className="education-grid">
@@ -19,9 +19,9 @@ const Education = () => {
             <p className="edu-period text-secondary">Nov 2020 – Jun 2024 · Hyderabad</p>
             <div className="edu-tags">
               <span>Data Structures</span>
-              <span>Machine Learning</span>
               <span>Database Systems</span>
               <span>Software Engineering</span>
+              <span>Machine Learning</span>
             </div>
           </div>
 
@@ -39,15 +39,15 @@ const Education = () => {
         </div>
 
         <div className="edu-column reveal-up reveal-delay-2">
-          <h3 className="column-label"><BookOpen size={20} /> Research & Publications</h3>
+          <h3 className="column-label"><BookOpen size={20} /> Research Publication</h3>
           <div className="edu-card glass-panel hover-trigger">
             <h4>A Review on Heart Disease Prediction System</h4>
             <p className="edu-institution">International Journal for Research in Applied Science & Engineering Technology (IJRASET)</p>
             <p className="edu-period text-secondary">Published: May 1, 2024</p>
             <ul className="research-points">
-              <li>Co-authored a research paper analyzing ML approaches for predicting heart disease using patient clinical data</li>
-              <li>Reviewed predictive models including ANN, genetic algorithms, and automated model optimization (AutoML)</li>
-              <li>Explored how ML identifies complex patterns in medical datasets to improve early diagnosis and clinical decision support</li>
+              <li>Co-authored a paper reviewing how machine learning systems can support heart disease prediction with clinical datasets.</li>
+              <li>Evaluated model strategies including ANN, genetic algorithms, and AutoML from both accuracy and implementation perspectives.</li>
+              <li>Connected research findings to practical software design considerations for decision-support tools in healthcare contexts.</li>
             </ul>
             <a 
               href="https://www.ijraset.com/research-paper/a-review-on-heart-disease-prediction-system" 

@@ -11,8 +11,8 @@ const Contact = () => {
         </div>
         
         <h2 className="contact-heading">
-          Let's connect and build<br />
-          <span className="animated-gradient-text">something extraordinary.</span>
+          Let&apos;s connect and build<br />
+          <span className="animated-gradient-text">software that ships.</span>
         </h2>
         
         <div className="contact-info">
