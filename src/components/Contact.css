@@ -80,20 +80,25 @@
 
 .footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  margin-top: var(--space-xxl);
   padding: var(--space-lg) 5vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: var(--space-md);
   border-top: 1px solid var(--glass-border);
   font-size: 0.875rem;
   color: var(--text-secondary);
 }
 
+.footer-text {
+  overflow-wrap: anywhere;
+}
+
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-lg);
 }
 
@@ -108,5 +113,5 @@
 
 @media (max-width: 768px) {
   .contact-info { gap: var(--space-md); flex-direction: column; }
-  .footer { flex-direction: column; gap: var(--space-md); text-align: center; }
+  .footer { flex-direction: column; text-align: center; }
 }

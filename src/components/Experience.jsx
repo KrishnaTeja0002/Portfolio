@@ -15,23 +15,6 @@ const experiences = [
       "Work with PostgreSQL, SQL, and Django ORM to manage relational data, implement CRUD workflows, and maintain data integrity.",
       "Integrate frontend features with backend APIs, test and debug application flows, and use Git to maintain reliable, modular code."
     ]
-  },
-  {
-    role: "Contract AI Trainer",
-    company: "Outlier AI",
-    location: "Remote",
-    type: "Contract",
-    period: "September 2024 – January 2025",
-    points: [
-      "Reviewed and evaluated AI/LLM outputs for accuracy, reasoning quality, factual correctness, and contextual relevance.",
-      "Provided structured feedback and annotations to improve the performance and reliability of machine learning and large language models.",
-      "Identified incorrect or biased responses and generated corrected outputs aligned with project guidelines.",
-      "Performed LLM evaluation tasks including response comparison, prompt validation, and quality scoring.",
-      "Used Python, Pandas, and NumPy for data validation and analysis of structured AI training datasets.",
-      "Followed standardized AI training and evaluation protocols to maintain consistency and quality across model assessments.",
-      "Supported workflows related to AI model training, testing, and performance evaluation.",
-      "Maintained high accuracy and consistency while completing assigned evaluation tasks within project deadlines."
-    ]
   }
 ];
 
