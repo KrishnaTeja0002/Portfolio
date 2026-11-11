@@ -4,20 +4,16 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: "Freelance Independent Software Engineer",
+    role: "Full-Stack Developer",
     company: "Adihar Tech Solutions",
     location: "Hyderabad, India",
     type: "Contract",
-    period: "May 2025 – April 2026",
+    period: "September 2024 – Present",
     points: [
-      "Developed a full-stack platform using React for the frontend and Django REST Framework for the backend, supporting multiple user roles.",
-      "Built and maintained REST APIs with JWT authentication, role-based access control, and secure data management.",
-      "Integrated PostgreSQL with Django ORM for efficient CRUD operations and complex relational data queries.",
-      "Performed API testing, debugging, and optimization to improve reliability, data integrity, and page-load performance.",
-      "Configured production deployments using Gunicorn, Nginx, and systemd on an Ubuntu VPS, including SSL/TLS security.",
-      "Collaborated with clients to understand requirements and delivered features tailored to role-specific business needs.",
-      "Used Git for version control and maintained clean, modular code following software engineering best practices.",
-      "Ensured reliable frontend-backend integration through API documentation, endpoint validation, and systematic testing."
+      "Build responsive, reusable frontend interfaces with React, translating product requirements into polished user experiences.",
+      "Develop and maintain backend services and REST APIs with Django REST Framework, including authentication and role-based access control.",
+      "Work with PostgreSQL, SQL, and Django ORM to manage relational data, implement CRUD workflows, and maintain data integrity.",
+      "Integrate frontend features with backend APIs, test and debug application flows, and use Git to maintain reliable, modular code."
     ]
   },
   {
